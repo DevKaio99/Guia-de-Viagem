@@ -13,9 +13,17 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 
-    background-image: url('fundo.jpg');
+    background-image: url('fundo2.jpg');
     background-size: 100%;
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center center; /* Centraliza a imagem */
 
+}
+
+.ptitulo {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 /* Estiliza os títulos h1 */
